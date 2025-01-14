@@ -1,0 +1,87 @@
+/* Allgemeine Textgestaltung */
+body {
+    font-family: Arial, sans-serif; /* Schriftart */
+    font-size: 18px; /* Textgröße */
+    color: #333333; /* Textfarbe */
+    line-height: 1.6; /* Zeilenhöhe */
+    background-color: white; /* Hintergrundfarbe */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Zentrierter Text */
+  }
+  
+  /* Titel */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222222; /* Dunklere Farbe für den Titel */
+    margin-bottom: 20px; /* Abstand unter dem Titel */
+    text-transform: uppercase; /* Großbuchstaben */
+  }
+  
+  /* Absatz */
+  p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #555555; /* Etwas hellere Textfarbe */
+    max-width: 800px; /* Maximale Breite für Absätze */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* Container für den Inhalt */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Logo */
+.logo {
+    width: 150px; /* Setze die Breite des Logos */
+    height: auto;
+    margin-bottom: 10px; /* Abstand unter dem Logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease; /* Sanfte Übergangsanimation */
+  }
+  
+  /* Hover-Effekt für das Logo */
+  .logo:hover {
+    content: url('images/logo-hover.png'); /* Das Bild, das beim Hover angezeigt wird */
+  }
+  
+  /* Titel und Beschreibung */
+  h1 {
+    font-size: 20px;
+    text-align: center; /* Zentriert den Titel */
+    line-height: 1.2; /* Verändert den Abstand zwischen den Zeilen */
+  }
+  
+  
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Bildbereich */
+  .image-container {
+    margin: 20px 0;
+  }
+  .image-container img {
+    width: 100%; /* Bild nimmt die gesamte Breite des Containers ein */
+    height: auto; /* Höhe wird automatisch angepasst, um das Seitenverhältnis zu erhalten */
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  /* Footer */
+  .footer {
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
