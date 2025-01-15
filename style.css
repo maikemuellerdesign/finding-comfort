@@ -18,6 +18,16 @@ body {
     margin-bottom: 20px; /* Abstand unter dem Titel */
     text-transform: uppercase; /* Großbuchstaben */
   }
+
+  /* Stil für die Headline nur auf der Unterseite */
+.printed-headline {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222222; /* Dunklere Farbe für den Titel */
+  margin-bottom: 20px; /* Abstand unter dem Titel */
+  text-transform: uppercase; /* Großbuchstaben */
+}
+
   
   /* Absatz */
   p {
@@ -77,11 +87,35 @@ body {
     cursor: pointer;
     transition: opacity 0.3s;
   }
-  
-  /* Footer */
-  .footer {
-    font-size: 12px;
-    color: gray;
-    margin-top: 20px;
-  }
-  
+
+  /* Container für die Bilder */
+.images-container {
+  display: flex;
+  justify-content: center; /* Zentriert die Bilder horizontal */
+  align-items: center; /* Zentriert die Bilder vertikal */
+  gap: 20px; /* Abstand zwischen den Bildern */
+  margin-top: 20px;
+}
+  /* Style for the footer */
+.footer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* Light background color */
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #0073e6; /* Blue color for links */
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+

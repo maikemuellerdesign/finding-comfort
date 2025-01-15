@@ -19,7 +19,7 @@ const images = [
     "images/image17.png",
     "images/image18.png",
     "images/image19.png",
-    "images/image20.png",
+    "images/image.png",
   ];
   
   // Referenz auf das Bild-Element
